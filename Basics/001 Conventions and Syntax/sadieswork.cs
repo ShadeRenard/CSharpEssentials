@@ -27,11 +27,6 @@ public class PowerUp
 {
 	public float powerLevel = 2.5f;
 }
-public class ClassExample
-{
-	
-}
-
 public class ClassWithVariables
 {
 	public int x = 8 + 50;
@@ -42,4 +37,6 @@ public class ClassWithVariables
 public void RunFunction()
 {
 Console.WriteLine("Running Function");
+
 }
+	}
