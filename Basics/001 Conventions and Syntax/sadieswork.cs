@@ -94,3 +94,16 @@ namespace MyApplication
     }
   }
 }
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int x = 10 + 78;
+      Console.WriteLine(x);  
+     }
+  }
+}
