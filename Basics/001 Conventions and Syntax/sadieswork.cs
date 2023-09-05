@@ -67,3 +67,16 @@ namespace MyApplication
      }
   }
 }
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 8;
+      Console.WriteLine(myNum);
+     }
+  }
+}
