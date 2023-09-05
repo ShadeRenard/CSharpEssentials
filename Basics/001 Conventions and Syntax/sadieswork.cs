@@ -49,5 +49,21 @@ int number = 24
 }
 }
 public class Labs
+{
+	int myNum = 50;
+	String userName "Sadie";
+	Console WriteLine (userName)
+}
+using System;
 
-int myNum = 50;
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string name = "Sadie";
+      Console.WriteLine(name);  
+     }
+  }
+}
