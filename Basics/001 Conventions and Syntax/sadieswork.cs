@@ -34,10 +34,10 @@ public class ClassExample
 
 public class ClassWithVariables
 {
-public int x = 8 + 50;
-public string userName = "Sadie";
+	public int x = 8 + 50;
+	public string userName = "Sadie";
 }
-public class ClassWithFunctions
+	public class ClassWithFunctions
 {
 public void RunFunction()
 {
