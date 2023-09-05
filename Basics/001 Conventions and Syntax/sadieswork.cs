@@ -45,5 +45,9 @@ public class ClassWithFunctions
 public void RunFunction()
 {
 Console.WriteLine("Running Function");
+int number = 24
 }
 }
+public class Labs
+
+int myNum = 50;
