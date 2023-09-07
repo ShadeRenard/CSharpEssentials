@@ -14,7 +14,7 @@ public class ClassWithVariables
 
 public class ClassWithFunctions
 {
-    public void RunFunction()
+    public void RunFunction(Bool )
     {
         Console.WriteLine("Running Function");
     }
