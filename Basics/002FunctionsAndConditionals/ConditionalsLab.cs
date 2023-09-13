@@ -8,14 +8,12 @@ public class Program
 	{
 		myOperator = new Operations();
 		
-		Console.WriteLine("Welcome");
-		myOperator.DoMath(10, 4);
-		myOperator.DoMath(20, 7);
-		myOperator.DoMath(30, 15);
+		Console.WriteLine("Current temperture");
+		myOperator.DoMath(6, 4);
+		myOperator.DoMath(50, 5);
+		myOperator.DoMath(100, 2);
 		myOperator.Compare(4,3);
 		myOperator.Compare(3,4);
-		myOperator.CheckPassword("SevenOF9");
-		myOperator.CheckPassword("OU812");
 	}
 }
 
@@ -26,18 +24,13 @@ public class Operations {
 	}
 	
 	public void Compare (int value, int value2) {
+		int x = 30;
+		int y = 10;
+		if (x > y) 
 		if(value > value2) {
-			Console.WriteLine("True, the first greater.");
+			Console.WriteLine("True, stay hydrated and avoid staying in the sun for too long.");
 		} else {
-			Console.WriteLine("False, the second is greater.");
-		}
-	}
-	
-	public void CheckPassword (string password) {
-		if(password == "OU812") {
-			Console.WriteLine("Correct Password");
-		} else {
-			Console.WriteLine("Incorrect Password");	
+			Console.WriteLine("False, enjoy the pleasant weather.");
 		}
 	}
 }
